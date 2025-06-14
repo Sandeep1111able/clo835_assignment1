@@ -5,6 +5,7 @@ WORKDIR /app
 RUN set -xe \
     && apt-get update -y \
     && apt-get install -y python3-pip \
+    && apt get install iputils-ping \
     && apt-get install -y mysql-client 
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
