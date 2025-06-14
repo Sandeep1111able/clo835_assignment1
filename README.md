@@ -12,7 +12,7 @@ This repository contains the application code and Docker configurations for a we
 ├── Dockerfile            # WebApp container image
 ├── Dockerfile_mysql      # MySQL custom image with preloaded database
 ├── .github/workflows/
-│   └── deploy.yml        # GitHub Actions workflow for build and push
+│   └── docker-ecr-push.yml        # GitHub Actions workflow for build and push
 ```
 
 ## WebApp Overview
